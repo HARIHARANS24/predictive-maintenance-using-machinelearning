@@ -1,4 +1,4 @@
-# predictive-maintenance-using-deeplearning
+# predictive-maintenance-using-machinelearning
 
 # Predictive Maintenance using Machine Learning
 
