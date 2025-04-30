@@ -201,3 +201,8 @@ Edit
 ├── requirements.txt             # Python dependencies
 ├── Dockerfile                   # Docker containerization (optional)
 └── README.md                    # Project README
+
+
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+
