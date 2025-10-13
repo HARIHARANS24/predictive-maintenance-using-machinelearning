@@ -8,7 +8,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
 
 - **Programming Language**: 
   - 🐍 Python
-  - 💻 JavaScript (Frontend)
+  - 💻 JavaScript (Frontend) 
 
 - **Machine Learning Libraries**:
   - 📊 `scikit-learn`: For model training and evaluation.  
