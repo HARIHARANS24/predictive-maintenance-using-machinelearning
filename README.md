@@ -10,7 +10,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
   - 🐍 Python 
   - 💻 JavaScript (Frontend)  
     
-- **Machine Learning Libraries**: 
+- **Machine Learning Libraries**:  
   - 📊 `scikit-learn`: For model training and evaluation.   
   - 🐼 `pandas`: For data manipulation and preprocessing.
   - 🔢 `numpy`: For numerical operations.
