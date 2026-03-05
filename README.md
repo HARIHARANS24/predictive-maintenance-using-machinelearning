@@ -76,79 +76,58 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
 
 ## 📁 Project Structure
 
-```plaintext
-├── 📂 Frontend/
-│   ├── 📂 src/
-│   │   ├── 📂 Components/
-│   │   │   ├── 📂 Jsx/
-│   │   │   │   ├── 📄 AllData.jsx
-│   │   │   │   ├── 📄 DataTable.jsx
-│   │   │   │   ├── 📄 Details.jsx
-│   │   │   │   ├── 📄 FailureType.jsx
-│   │   │   │   ├── 📄 Home.jsx
-│   │   │   │   ├── 📄 Insights.jsx
-│   │   │   │   ├── 📄 machine_data.csv
-│   │   │   │   ├── 📄 SensorData.jsx
-│   │   │   │   ├── 📄 SideBar.jsx
-│   │   │   │   ├── 📄 Target.jsx
-│   │   │   │   └── 📄 Type.jsx
-│   │   │   └── 📂 Css/
-│   │   │       ├── 📄 AllData.css
-│   │   │       ├── 📄 DataTable.css
-│   │   │       ├── 📄 Details.css
-│   │   │       ├── 📄 FailureType.css
-│   │   │       ├── 📄 Home.css
-│   │   │       ├── 📄 Insights.css
-│   │   │       ├── 📄 SensorData.css
-│   │   │       ├── 📄 SideBar.css
-│   │   │       ├── 📄 Target.css
-│   │   │       └── 📄 Type.css
-│   │   ├── 📂 Assets/
-│   │   ├── 📄 App.css
-│   │   ├── 📄 App.js
-│   │   ├── 📄 App.test.js
-│   │   ├── 📄 index.css
-│   │   ├── 📄 index.js
-│   │   ├── 📄 logo.svg
-│   │   ├── 📄 reportWebVitals.js
-│   │   └── 📄 setupTests.js
-│   ├── 📂 public/
-│   │   ├── 📄 favicon.ico
-│   │   ├── 📄 index.html
-│   │   ├── 📄 logo192.png
-│   │   ├── 📄 logo512.png
-│   │   ├── 📄 manifest.json
-│   │   └── 📄 robots.txt
-│   ├── 📄 package.json
-│   ├── 📄 package-lock.json
-│   └── 📄 README.md
-│
-├── 📂 Backend/
-│   ├── 📄 lstm_d.py
-│   └── 📄 LSTM_D.ipynb
-│
-├── 📂 data/
-│   ├── 📄 raw_data.csv
-│   ├── 📄 processed_data.csv
-│   └── 📂 data_split/
-│
-├── 📂 notebooks/
-│   ├── 📄 exploratory_analysis.ipynb
-│   ├── 📄 model_training.ipynb
-│   └── 📄 real_time_prediction.ipynb
-│
-├── 📂 models/
-│   ├── 📄 random_forest_model.pkl
-│   ├── 📄 xgboost_model.pkl
-│   └── 📄 linear_regression_model.pkl
-│
-├── 📂 src/
-│   ├── 📄 data_preprocessing.py
-│   └── 📄 model.py
-│
-├── 📄 README.md
-├── 📄 LICENSE.txt
-└── 📄 .gitattributes
+```
+Directory structure:
+└── hariharans24-predictive-maintenance-using-machinelearning/
+    ├── README.md
+    ├── gitattributes
+    ├── LICENSE.txt
+    ├── Backend/
+    │   ├── LSTM_D.ipynb
+    │   └── lstm_d.py
+    └── Frontend/
+        ├── README.md
+        ├── package-lock.json
+        ├── package.json
+        ├── public/
+        │   ├── index.html
+        │   ├── manifest.json
+        │   └── robots.txt
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── App.test.js
+            ├── index.css
+            ├── index.js
+            ├── reportWebVitals.js
+            ├── setupTests.js
+            ├── Assets/
+            │   └── loading.webp
+            └── Components/
+                ├── Css/
+                │   ├── AllData.css
+                │   ├── DataTable.css
+                │   ├── Details.css
+                │   ├── FailureType.css
+                │   ├── Home.css
+                │   ├── Insights.css
+                │   ├── SensorData.css
+                │   ├── SideBar.css
+                │   ├── Target.css
+                │   └── Type.css
+                └── Jsx/
+                    ├── AllData.jsx
+                    ├── DataTable.jsx
+                    ├── Details.jsx
+                    ├── FailureType.jsx
+                    ├── Home.jsx
+                    ├── Insights.jsx
+                    ├── machine_data.csv
+                    ├── SensorData.jsx
+                    ├── SideBar.jsx
+                    ├── Target.jsx
+                    ├── TemperatureAnalysis.jsx
+                    └── Type.jsx
 ```
 
 ## 🤝 Contributing
